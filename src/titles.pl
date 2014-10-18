@@ -47,6 +47,6 @@ foreach my $i (1..10) {
         $title_words[$mod] = splice(@data, rand @data, 1);
 #        splice(@data,
 
-        print "Random title: ", join(' ', @title_words), "\n";
+        print join(' ', @title_words), "\n";
 }
 
