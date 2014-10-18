@@ -1,66 +1,66 @@
-Galen Strawson
-John Burnside
-Michael Wood
-Safa Al Ahmad
-Ross McKibbin
-Neal Ascherson
-Colin Burrow
-Jeremy Harding
-Adam Phillips
-Jenny Diski
-Owen Hatherley
-Terry Eagleton
-Hilary Mantel
-David Runciman
-John Lanchester
-Julian Barnes
-Nicholas Spice
-Kirsty Gunn
-Paul Taylor
-Anne Enright
-Christopher Taylor
-T.J. Clark
-Hazem Kandil
-Michael Herbert Miller
-James Meek
-Andrew O'Hagan
-David Bromwich
-Wang Hui
-Benjamin Kunkel
-Rosemary Hill
-Rebecca Solnit
-Colm Toibin
-Ross McKibbin
-Seamus Perry
-Thomas Jones
-Adam Shatz
-Evgeny Morozov
-Terry Castle
-Adam Mars-Jones
-Perry Anderson
-Tim Parks
-Marina Warner
-Adam Smyth
-Deborah Friedell
-Christopher Turner
-Theo Tait
-Eliot Weinberger
-Alexandra Walsham
-Mattathias Scwartz
-Bernard Porter
-David Bromwich
-Richard J Evans
-Fredric Jameson
-Michael Wood
-James Woon
-Daniel Soar
-Malcolm Bull
-Alan Bennett
-Michael Hofmann
-Thomas Laquer
-Peter Pomerantsev
-Pankaj Mishra
-Patrick Cockburn
+Galen,Strawson
+John,Burnside
+Michael,Wood
+Safa, Al Ahmad
+Ross,McKibbin
+Neal,Ascherson
+Colin,Burrow
+Jeremy,Harding
+Adam,Phillips
+Jenny,Diski
+Owen,Hatherley
+Terry,Eagleton
+Hilary,Mantel
+David,Runciman
+John,Lanchester
+Julian,Barnes
+Nicholas,Spice
+Kirsty,Gunn
+Paul,Taylor
+Anne,Enright
+Christopher,Taylor
+T.J.,Clark
+Hazem,Kandil
+Michael,Herbert Miller
+James,Meek
+Andrew,O'Hagan
+David,Bromwich
+Wang,Hui
+Benjamin,Kunkel
+Rosemary,Hill
+Rebecca,Solnit
+Colm,Toibin
+Ross,McKibbin
+Seamus,Perry
+Thomas,Jones
+Adam,Shatz
+Evgeny,Morozov
+Terry,Castle
+Adam,Mars-Jones
+Perry,Anderson
+Tim,Parks
+Marina,Warner
+Adam,Smyth
+Deborah,Friedell
+Christopher,Turner
+Theo,Tait
+Eliot,Weinberger
+Alexandra,Walsham
+Mattathias,Scwartz
+Bernard,Porter
+David,Bromwich
+Richard,J Evans
+Fredric,Jameson
+Michael,Wood
+James,Woon
+Daniel,Soar
+Malcolm,Bull
+Alan,Bennett
+Michael,Hofmann
+Thomas,Laquer
+Peter,Pomerantsev
+Pankaj,Mishra
+Patrick,Cockburn
 
 
 
