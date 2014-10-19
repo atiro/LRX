@@ -4,13 +4,15 @@ use strict;
 
 # Read in data
 
-my @title_files = ("booker.txt", "sjprize.txt", "womens.txt");
+my @title_files = ("booker.txt", "sjprize.txt", "womens.txt", "jtb-fiction.txt");
 my @titles;
 my @sentence_files = ("sentences.txt");
 my @sentences;
 
 my @data_files = ("tv", "sweet", "playground");
 my @data;
+
+my $the_count = 0; # Two word 'The ...' titles are dull
 
 foreach my $file (@data_files) {
        open(FILE, "$file/$file-titles.txt") or die "Failed to open $file - $!";
@@ -45,9 +47,11 @@ srand;
 
 foreach my $i (1..10) {
         my $title = splice(@titles, rand @titles, 1);
+        #if($title
         my @title_words = split(/\s/, $title);
         my $mod = 1;
-        my $pos = -1;
+        my $pos = 1;
+        my @valid_words = ();
 
         # Now replace a word (>3 chars)
 #        for my $word (@title_words) {
@@ -55,8 +59,15 @@ foreach my $i (1..10) {
         $pos++ && length($_) > 3 && rand($pos) < 1 && ($mod = $pos) foreach (@title_words);
 #                   $po
 
-        
-        $title_words[$mod] = splice(@data, rand @data, 1);
+        my $i = 0;
+        foreach my $word (@title_words) {
+                if(length($word) > 3) {
+                       push @valid_words, $i;
+                }
+                $i++;
+        }
+
+        $title_words[$valid_words[rand @valid_words]] = splice(@data, rand @data, 1);
 #        splice(@data,
 
         print join(' ', @title_words), "\n";
@@ -72,19 +83,26 @@ foreach my $i (1..5) {
                if($word eq "<word>") {
                     $new_sentence .= splice(@data, rand @data, 1) . " ";
                } elsif ($word eq "<words>") {
-                    my $new_word = splice(@data, rand @data, 1) . "s ";
+                    my $new_word = splice(@data, rand @data, 1);
                     if($new_word =~ /s$/) {
-                        $new_sentence .= splice(@data, rand @data, 1) . " ";
+                        $new_sentence .= $new_word . " ";
                     } else {
-                        $new_sentence .= splice(@data, rand @data, 1) . "s ";
+                        $new_sentence .= $new_word . "s ";
                     }
                } elsif ($word eq "<wordp>") {
-                    my $new_word = splice(@data, rand @data, 1) . "s ";
+                    my $new_word = splice(@data, rand @data, 1);
                     if($new_word =~ /s$/) {
-                        $new_sentence .= splice(@data, rand @data, 1) . " ";
+                        $new_sentence .= $new_word . " ";
                     } else {
-                        $new_sentence .= splice(@data, rand @data, 1) . "'s ";
+                        $new_sentence .= $new_word . "'s ";
                     }
+               } elsif ($word eq "<wordd>") {
+                    $new_sentence .= splice(@data, rand @data, 1);
+               } elsif ($word eq "<wordD>") {
+                    chop $new_sentence;
+                    $new_sentence .= splice(@data, rand @data, 1);
+               } elsif ($word eq "<number>") {
+                    $new_sentence .= int(rand(100)) . " ";
                } else {
                     $new_sentence .= $word . " ";
                }
