@@ -7,9 +7,7 @@ I Spy
 Marbles
 Musical Chairs
 Pick-up Sticks
-Rock-paper-scissors
 Sardines
 Simon Says
 Tag
-Tic-tac-toe
 Tiddlywinks
