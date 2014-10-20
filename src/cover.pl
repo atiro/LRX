@@ -1,10 +1,17 @@
 #!/usr/bin/perl
 
 use strict;
+use v5.10;
 use Cairo;
 
 my @titles;
 my @authors;
+
+my $width = 1280;
+my $height = 1920;
+
+my @cover_types = ('titles_only_12', 'image_only', 'lower_titles_6',
+                    'upper_titles', 'mixed_titles', 'sidebar_titles');
 
 # Select at random public domain image
 
@@ -16,7 +23,7 @@ my @authors;
 
 #GD::Simple->class('GD::SVG');
 
-my $surface = Cairo::ImageSurface->create('argb32', 1280, 1920);
+my $surface = Cairo::ImageSurface->create('argb32', $width, $height);
 my $cr = Cairo::Context->create($surface);
 #$img->bgcolor('white');
 #my $white= $img->colorAllocate(255, 255, 255);
@@ -24,7 +31,7 @@ my $cr = Cairo::Context->create($surface);
 #my $blue= $img->colorAllocate(30, 40, 250);
 
 #$cr->rectangle(10, 10, 40, 40);
-$cr->set_source_rgb(0, 0, 0);
+$cr->set_source_rgb(100, 20, 100);
 $cr->fill;
 
 
@@ -55,8 +62,13 @@ $cr->rectangle(0, 0, 1280, 1920);
 $cr->set_source_rgb(255, 255, 255);
 $cr->fill();
 
-$cr->set_source_rgb(0, 0, 0);
 $cr->rectangle(25, 75, 1230, 1820);
+$cr->set_source_rgb(0, 0, 0);
+$cr->fill();
+
+$cr->rectangle(26, 76, 1228, 1818);
+$cr->set_source_rgb(100, 20, 10);
+$cr->fill();
 
 $cr->stroke();
 $cr->select_font_face('sans', 'normal', 'bold');
@@ -70,18 +82,21 @@ $cr->set_font_size(80);
 $cr->move_to(375, 300);
 $cr->show_text("of Allsorts");
 
-$cr->set_font_size(35);
+$cr->set_font_size(38);
 
 my $top_title = splice(@titles, rand @titles, 1);
 my $top_author = splice(@authors, rand @authors, 1);
+my $top_line = "$top_author: $top_title";
+my $extents = $cr->text_extents($top_line);
+say "Text Extents: ", $extents->{height}, " ", $extents->{width};
 
-$cr->move_to(150, 50);
+$cr->move_to($width/2 - ($extents->{width}/2), 50);
 $cr->set_source_rgb(200, 0, 0);
 $cr->show_text("$top_author: $top_title");
 
 $cr->move_to(250, 350);
 $cr->set_source_rgb(0, 0, 0);
-$cr->set_font_size(24);
+$cr->set_font_size(20);
 $cr->show_text("Volume 36 Number 1   1 Jan 2015   £3.50 US & CANADA \$4.95");
 
 $cr->set_font_size(35);
@@ -91,7 +106,7 @@ while($i < 4) {
     my $title = splice(@titles, rand @titles, 1);
     my $author = splice(@authors, rand @authors, 1);
     $cr->move_to(175, 600 + $i*60);
-    if($i / 2 == 0) {
+    if(int($i / 2) == 0) {
        $cr->set_source_rgb(200, 0, 0);
     } else {
        $cr->set_source_rgb(0, 0, 0);
@@ -102,7 +117,7 @@ while($i < 4) {
 }
 
 my $cover_img = $surface->create_from_png("test.png");
-$cr->set_source_surface($cover_img, 150, 850);
+$cr->set_source_surface($cover_img, 100, 850);
 $cr->paint();
 
 $cr->show_page;

@@ -45,7 +45,7 @@ foreach my $file (@sentence_files) {
 
 srand;
 
-foreach my $i (1..10) {
+foreach my $i (1..30) {
         my $title = splice(@titles, rand @titles, 1);
         #if($title
         my @title_words = split(/\s/, $title);
@@ -73,7 +73,7 @@ foreach my $i (1..10) {
         print join(' ', @title_words), "\n";
 }
 
-foreach my $i (1..5) {
+foreach my $i (1..10) {
         my $sentence = splice(@sentences, rand @sentences, 1);
         my @sent_words = split(/\s/, $sentence);
         my $mod = 1;
