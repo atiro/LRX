@@ -13,6 +13,10 @@ my $height = 1920;
 my @cover_types = ('titles_only_12', 'image_only', 'lower_titles_6',
                     'upper_titles', 'mixed_titles', 'sidebar_titles');
 
+my $cover_type = "titles_only_12";
+
+my @cover_colours = ([0, 159, 34], [180, 20, 40], [10, 20, 210]);
+
 # Select at random public domain image
 
 # Colourise at random for the pastel
@@ -67,7 +71,7 @@ $cr->set_source_rgb(0, 0, 0);
 $cr->fill();
 
 $cr->rectangle(26, 76, 1228, 1818);
-$cr->set_source_rgb(100, 20, 10);
+$cr->set_source_rgb(@{$cover_colours[rand (@cover_colours)]});
 $cr->fill();
 
 $cr->stroke();
@@ -80,7 +84,7 @@ $cr->show_text("London Review");
 
 $cr->set_font_size(80);
 $cr->move_to(375, 300);
-$cr->show_text("of Allsorts");
+$cr->show_text("of Sweets");
 
 $cr->set_font_size(38);
 
@@ -99,33 +103,59 @@ $cr->set_source_rgb(0, 0, 0);
 $cr->set_font_size(20);
 $cr->show_text("Volume 36 Number 1   1 Jan 2015   £3.50 US & CANADA \$4.95");
 
-$cr->set_font_size(35);
 
-my $i = 0;
-while($i < 4) {
-    my $title = splice(@titles, rand @titles, 1);
-    my $author = splice(@authors, rand @authors, 1);
-    $cr->move_to(175, 600 + $i*60);
-    if(int($i / 2) == 0) {
-       $cr->set_source_rgb(200, 0, 0);
-    } else {
-       $cr->set_source_rgb(0, 0, 0);
+if($cover_type eq "titles_only_12") {
+    my $i = 0;
+    $cr->set_font_size(38);
+    while($i < 12) {
+        my $title = splice(@titles, rand @titles, 1);
+        my $author = splice(@authors, rand @authors, 1);
+        my $line = "$author: $title";
+        my $extent = $cr->text_extents($line);
+        if($extent->{width} > 1200) { 
+            while($extent->{width} > 1200) {
+               $title = splice(@titles, rand @titles, 1);
+               $line = "$author: $title";
+               $extent = $cr->text_extents($line);
+            }
+        }
+        $cr->move_to($width/2 - $extent->{width}/2, 600 + $i*100);
+        if(int($i / 2) == 0) {
+          $cr->set_source_rgb(200, 0, 0);
+        } else {
+          $cr->set_source_rgb(0, 0, 0);
+        }
+        $cr->show_text("$author: $title");
+        $cr->fill();
+        $i++;
     }
-    $cr->show_text("$author: $title");
-    $cr->fill();
-    $i++;
-}
+} else {
+    $cr->set_font_size(40);
 
-my $cover_img = $surface->create_from_png("test.png");
-$cr->set_source_surface($cover_img, 100, 850);
-$cr->paint();
+    my $i = 0;
+    while($i < 4) {
+        my $title = splice(@titles, rand @titles, 1);
+        my $author = splice(@authors, rand @authors, 1);
+        my $line = "$author: $title";
+        my $extent = $cr->text_extents($line);
+        if($extent->{width} > 1400) { $i++; next; }
+        $cr->move_to($width/2 - $extent->{width}/2, 600 + $i*60);
+        if(int($i / 2) == 0) {
+            $cr->set_source_rgb(200, 0, 0);
+        } else {
+            $cr->set_source_rgb(0, 0, 0);
+        }
+        $cr->show_text("$author: $title");
+        $cr->fill();
+        $i++;
+    }
+
+    my $cover_img = $surface->create_from_png("test.png");
+    $cr->set_source_surface($cover_img, 100, 850);
+    $cr->paint();
+}
 
 $cr->show_page;
 $surface->write_to_png('output.png');
 
 exit(0);
-
-open my $out, '>', '../covers/img.png' or die;
-binmode $out;
-#print $out $img->png;
-close $out;

@@ -9,7 +9,8 @@ my @titles;
 my @sentence_files = ("sentences.txt");
 my @sentences;
 
-my @data_files = ("tv", "sweet", "playground");
+#my @data_files = ("tv", "sweet", "playground");
+my @data_files = ("sweet");
 my @data;
 
 my $the_count = 0; # Two word 'The ...' titles are dull
@@ -45,7 +46,7 @@ foreach my $file (@sentence_files) {
 
 srand;
 
-foreach my $i (1..30) {
+foreach my $i (1..10) {
         my $title = splice(@titles, rand @titles, 1);
         #if($title
         my @title_words = split(/\s/, $title);
