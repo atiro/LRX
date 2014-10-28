@@ -3,9 +3,12 @@
 use strict;
 use v5.10;
 use Cairo;
+use Getopt::Long;
 
 my @titles;
 my @authors;
+my %used_titles;
+my %used_items;
 
 my $width = 1280;
 my $height = 1920;
@@ -15,7 +18,18 @@ my @cover_types = ('titles_only_12', 'image_only', 'lower_titles_6',
 
 my $cover_type = "titles_only_12";
 
-my @cover_colours = ([0, 159, 34], [180, 20, 40], [10, 20, 210]);
+my @cover_colours = ([0, 159, 34],
+                     [180, 20, 40],
+                     [18, 220, 40],
+                     [45, 220, 95],
+                     [10, 20, 210]);
+
+my $cover_colour = "";
+
+GetOptions(
+    'type=s' => \$cover_type,
+    'colour=s' => \$cover_colour
+) or die "Unknown command line option";
 
 # Select at random public domain image
 
@@ -71,7 +85,8 @@ $cr->set_source_rgb(0, 0, 0);
 $cr->fill();
 
 $cr->rectangle(26, 76, 1228, 1818);
-$cr->set_source_rgb(@{$cover_colours[rand (@cover_colours)]});
+my @cover_colour = @{$cover_colours[rand (@cover_colours)]};
+$cr->set_source_rgb(@cover_colour);
 $cr->fill();
 
 $cr->stroke();
@@ -88,7 +103,13 @@ $cr->show_text("of Sweets");
 
 $cr->set_font_size(38);
 
-my $top_title = splice(@titles, rand @titles, 1);
+my($orig_title,$item,$title) = split(/,/, splice(@titles, rand @titles, 1));
+if(exists $used_titles{$orig_title}) { next; }
+if(exists $used_items{$item}) { next; }
+$used_titles{$orig_title} = 1;
+$used_items{$item} = 1;
+
+my $top_title = $title;
 my $top_author = splice(@authors, rand @authors, 1);
 my $top_line = "$top_author: $top_title";
 my $extents = $cr->text_extents($top_line);
@@ -103,20 +124,29 @@ $cr->set_source_rgb(0, 0, 0);
 $cr->set_font_size(20);
 $cr->show_text("Volume 36 Number 1   1 Jan 2015   £3.50 US & CANADA \$4.95");
 
-
 if($cover_type eq "titles_only_12") {
     my $i = 0;
     $cr->set_font_size(38);
     while($i < 12) {
-        my $title = splice(@titles, rand @titles, 1);
+        my($orig_title,$item,$title) = split(/,/, splice(@titles, rand @titles, 1));
+        if(exists $used_titles{$orig_title}) { next; }
+        if(exists $used_items{$item}) { next; }
+        $used_titles{$orig_title} = 1;
+        $used_items{$item} = 1;
+        chomp $title;
         my $author = splice(@authors, rand @authors, 1);
         my $line = "$author: $title";
         my $extent = $cr->text_extents($line);
         if($extent->{width} > 1200) { 
             while($extent->{width} > 1200) {
-               $title = splice(@titles, rand @titles, 1);
-               $line = "$author: $title";
-               $extent = $cr->text_extents($line);
+                my($orig_title,$item,$title) = split(/,/, splice(@titles, rand @titles, 1));
+                if(exists $used_titles{$orig_title}) { next; }
+                if(exists $used_items{$item}) { next; }
+                $used_titles{$orig_title} = 1;
+                $used_items{$item} = 1;
+                chomp $title;
+                $line = "$author: $title";
+                $extent = $cr->text_extents($line);
             }
         }
         $cr->move_to($width/2 - $extent->{width}/2, 600 + $i*100);
@@ -132,9 +162,16 @@ if($cover_type eq "titles_only_12") {
 } else {
     $cr->set_font_size(40);
 
+    say "Image Only";
+
     my $i = 0;
     while($i < 4) {
-        my $title = splice(@titles, rand @titles, 1);
+        my($orig_title,$item,$title) = split(/,/, splice(@titles, rand @titles, 1));
+        if(exists $used_titles{$orig_title}) { next; }
+        if(exists $used_items{$item}) { next; }
+        $used_titles{$orig_title} = 1;
+        $used_items{$item} = 1;
+        chomp $title;
         my $author = splice(@authors, rand @authors, 1);
         my $line = "$author: $title";
         my $extent = $cr->text_extents($line);

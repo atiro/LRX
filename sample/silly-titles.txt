@@ -1,120 +1,360 @@
-The Idea of Flumps
-The Humbug
-The Dip Dab the Sea
-The Secret Jelly Babies
-Fruit Salads du Lac
-Catherine Wheels Back Brockens
-The Highland Toffee Reich - A New History
-Memoirs of a Lovehearts Man
-The Honourable Drumstick
-After Many a Summer Dies the Marshmallows
-The Fizz Wiz Disaster 
-Atoms in Mint Imperials 
-A Spark of Hobnobs 
-Looking at Sherbert Fountains 
-How to Spot Liquorice Allsorts 
-Memories of Black Jacks 
-The Coconut Mushroom Assassin 
-'Bullseyes' 
-Eternal Flying Saucer 
-Life and Death of Polo 
-1599 - A Year in the Life of Humbug Shakespeare
-The Famished Jelly Babies
-Stasiland - Oh Bullseyes it so Terrible – True Stories from Behind the Berlin Wall
-The Lost Sherbert Fountains
-Imperial Chewies
-Tales from Mint Imperials Bridge
-The Song of Wine Gums
-The Fruit Salads Victorian Collection
-At Fizz Wiz Molly's
-Black Jacks
-Desirable Hobnobs 
-The Apotheosis of Highland Toffees 
-On Coconut Mushrooms 
-In Praise of Pontefract Cakes 
-A Spark of Liquorice Allsorts 
-The Flumps Inquiry 
-Life and Death of Dip Dab 
-Oh the Catherine Wheels 
-The Flying Saucer Disaster 
-The Fish & Chips Assassin 
-A Liquorice Allsorts to India
-The Polo Road
-Ticeyman Bon Bon
-Men at Dip Dab
-The Suspicions of Mr Whicher or the Murder at Road Gobstoppers House
-Flying Saucer the Void
-Pontefract Cakes Hunger
-At Marshmallows Molly's
-The Famished Black Jacks
-Chewies Sea
-A Good Mint Imperials 
-'Fizz Wiz' 
-Memories of Jelly Babies 
-In Praise of Catherine Wheels 
-The Hobnobs Disaster 
-Eternal Drumstick 
-Desirable Fish & Chips 
-Gobstopper Affray 
-Humbug to the Rescue 
-On Sherbert Fountains 
-A Dip Dab Tragedy
-A Crime in the Gobstopper
-The Root and the Fizz Wiz
-The Liquorice Allsorts the Sea
-Lady Fish & Chips Fox
-Mao's Great Gobstoppers
-Bring Up the Sherbert Fountains
-Catherine Wheels New Man
-The Coconut Mushroom Gate
-The Towers of Bullseyes
-The Chewies Disaster 
-Desirable Fruit Salads 
-The Highland Toffees Affair 
-'Wine Gums' 
-The Humbug Inquiry 
-Life and Death of Black Jacks 
-Oh the Pontefract Cakes 
-A Good Drumstick 
-Memories of Marshmallows 
-How to Spot Hobnobs 
-A Girl Is a Half-formed Drumstick
-The Humbug
-Fugitive Bullseyes
-When I Lived in Polo Times
-Highland Chewies
-Nights at the Liquorice Allsorts
-Vernon God Gobstoppers
-The Jelly Babies City
-The Flying Saucer of the Day
-The Lost Mint Imperials
-Sherbert Fountains at Home 
-The Gobstopper Disaster 
-Black Jacks Galore 
-Desirable Pontefract Cakes 
-Looking at Fruit Salads 
-The Dip Dab Incident 
-How to Spot Coconut Mushrooms 
-The Fizz Wizs Affair 
-The Hobnobs Assassin 
-What to say about Catherine Wheels 
-Fizz Wiz - Oh Wasn't it so Terrible – True Stories from Behind the Berlin Wall
-The Old Pontefract Cakes
-Hobnobs Hall
-Never Humbug - Britain 1945-1951
-Bring Up the Bon Bon
-Something to Gobstopper For
-A Ship of the Marshmallows
-The Tiger's Dip Dab
-Act of Sherbert Fountains
-The Lovehearts Gate
-The Wine Gums Incident 
-Polo to the Rescue 
-The Gobstoppers Affair 
-Eternal Highland Toffee 
-What to say about Flumps 
-On Fruit Salads 
-The Apotheosis of Flying Saucers 
-Liquorice Allsorts in Grimsby 
-Jelly Babies Galore 
-Drumstick Affray 
+Larry's Party,Fruit Salads,Larry's Fruit Salads
+A Spell of Winter,Flumps,A Flumps of Winter
+The Folding Star,Torpedo,The Torpedo Star
+Rites of Passage,Fish & Chips,Fish & Chips of Passage
+The Remains of the Day,Wine Gums,The Wine Gums of the Day
+Memoirs of a Midget,Bullseyes,Bullseyes of a Midget
+Flying Colours,Gobstopper,Flying Gobstopper
+Touching the Void,Humbug,Humbug the Void
+Berlios - Volume 2,Highland Toffee,Highland Toffee - Volume 2
+The Towers of Trebizond,Lovehearts,The Towers of Lovehearts
+The <words> Affair,Flying Saucer,The Flying Saucers Affair
+What to say about <words>,Coconut Mushroom,What to say about Coconut Mushrooms
+A Spark of <words>,Polo,A Spark of Polos
+<wordp> in Grimsby,Chewies,Chewies in Grimsby
+How to Spot <words>,Catherine Wheels,How to Spot Catherine Wheels
+A Good <word>,Drumstick,A Good Drumstick
+<words> at <number>,Fizz Wiz,Fizz Wizs at 14
+Desirable <words>,Gobstoppers,Desirable Gobstoppers
+Memories of <word>,Marshmallows,Memories of Marshmallows
+The <word> Disaster,Liquorice Allsorts,The Liquorice Allsorts Disaster
+Last Orders,Marshmallows,Last Marshmallows
+A Guest of Honour,Fish & Chips,A Guest of Fish & Chips
+At Lady Molly's,Black Jacks,At Black Jacks Molly's
+Winter Garden,Liquorice Allsorts,Liquorice Allsorts Garden
+Mao's Great Famine ,Fizz Wiz,Fizz Wiz Great Famine
+The Line of Beauty,Bullseyes,The Line of Bullseyes
+Paddy Clarke Ha Ha Ha,Humbug,Paddy Humbug Ha Ha Ha
+The Secret City,Torpedo,The Secret Torpedo
+The Ghost Road,Jelly Babies,The Jelly Babies Road
+The Narrow Road to the Deep North,Lovehearts,The Lovehearts Road to the Deep North
+<wordp> in Grimsby,Flying Saucer,Flying Saucer's in Grimsby
+Desirable <words>,Drumstick,Desirable Drumsticks
+The Neo- <wordD>,Fruit Salads,The Neo-Fruit Salads
+<word> Galore,Coconut Mushroom,Coconut Mushroom Galore
+A Bad <word>,Bon Bon,A Bad Bon Bon
+Life and Death of <word>,Gobstoppers,Life and Death of Gobstoppers
+The <word> Assassin,Mint Imperials,The Mint Imperials Assassin
+What to say about <words>,Dip Dab,What to say about Dip Dabs
+The <words> Affair,Gobstopper,The Gobstoppers Affair
+<word> to the Rescue,Hobnobs,Hobnobs to the Rescue
+A Guest of Honour,Highland Toffee,A Guest of Highland Toffee
+1599 - A Year in the Life of William Shakespeare,Pontefract Cakes,1599 - A Year in the Life of Pontefract Cakes Shakespeare
+Possession : A Romance,Gobstopper,Possession : A Gobstopper
+Paddy Clarke Ha Ha Ha,Fizz Wiz,Paddy Fizz Wiz Ha Ha Ha
+The Secret City,Humbug,The Humbug City
+Highland River,Sherbert Fountains,Highland Sherbert Fountains
+Life of Pi,Marshmallows,Marshmallows of Pi
+A People's Tragedy,Gobstoppers,A People's Gobstoppers
+,Polo,Polo
+Without My Cloak,Bullseyes,Without My Bullseyes
+Eternal <word>,Chewies,Eternal Chewies
+On <words>,Dip Dab,On Dip Dabs
+The <word> Inquiry,Black Jacks,The Black Jacks Inquiry
+Life and Death of <word>,Drumstick,Life and Death of Drumstick
+A Good <word>,Wine Gums,A Good Wine Gums
+Atoms in <words>,Mint Imperials,Atoms in Mint Imperials
+The <words> Affair,Coconut Mushroom,The Coconut Mushrooms Affair
+The <word> Incident,Hobnobs,The Hobnobs Incident
+A Spark of <words>,Flying Saucer,A Spark of Flying Saucers
+' <wordD> ',Jelly Babies,'Jelly Babies'
+The Sea, the Sea,Sherbert Fountains,The Sherbert Fountains the Sea
+Into the Silence ,Fizz Wiz,Fizz Wiz the Silence
+The Blind Assassin,Jelly Babies,The Jelly Babies Assassin
+,Fish & Chips,Fish & Chips
+Our Horses in Egypt,Mint Imperials,Our Horses in Mint Imperials
+Crossing the River,Fruit Salads,Fruit Salads the River
+The Pike,Drumstick,The Drumstick
+After Many a Summer Dies the Swan,Polo,After Many a Summer Polo the Swan
+The God of Small Things,Gobstopper,The God of Small Gobstopper
+On The Black Hill,Wine Gums,On The Wine Gums Hill
+The <word> Disaster,Lovehearts,The Lovehearts Disaster
+<word> Affray,Humbug,Humbug Affray
+Atoms in <words>,Marshmallows,Atoms in Marshmallows
+The <words> Affair,Highland Toffee,The Highland Toffees Affair
+How to Spot <words>,Liquorice Allsorts,How to Spot Liquorice Allsorts
+The <word> Incident,Chewies,The Chewies Incident
+<word> to the Rescue,Black Jacks,Black Jacks to the Rescue
+<wordp> in Grimsby,Bon Bon,Bon Bon's in Grimsby
+<words> at <number>,Pontefract Cakes,Pontefract Cakes at 3
+The <word> Assassin,Bullseyes,The Bullseyes Assassin
+Young Tom,Gobstopper,Gobstopper Tom
+Like A Fiery Elephant - The Story of B. S. Johnson,Fruit Salads,Fruit Salads A Fiery Elephant - The Story of B. S. Johnson
+The Invisible Woman,Humbug,The Invisible Humbug
+Life of Pi,Liquorice Allsorts,Liquorice Allsorts of Pi
+Touching the Void,Fish & Chips,Fish & Chips the Void
+Hotel du Lac,Bon Bon,Bon Bon du Lac
+Bring Up the Bodies,Polo,Bring Up the Polo
+Nights at the Circus,Flying Saucer,Nights at the Flying Saucer
+The Famished Road,Flumps,The Flumps Road
+A Girl Is a Half-formed Thing,Black Jacks,A Black Jacks Is a Half-formed Thing
+What to say about <words>,Jelly Babies,What to say about Jelly Babies
+The <word> Inquiry,Catherine Wheels,The Catherine Wheels Inquiry
+How to Spot <words>,Dip Dab,How to Spot Dip Dabs
+Memories of <word>,Wine Gums,Memories of Wine Gums
+Atoms in <words>,Bullseyes,Atoms in Bullseyes
+The <word> Assassin,Torpedo,The Torpedo Assassin
+<word> to the Rescue,Pontefract Cakes,Pontefract Cakes to the Rescue
+The Apotheosis of <words>,Chewies,The Apotheosis of Chewies
+<words> at <number>,Coconut Mushroom,Coconut Mushrooms at 49
+A Bad <word>,Marshmallows,A Bad Marshmallows
+At Lady Molly's,Gobstopper,At Gobstopper Molly's
+The Luminaries,Coconut Mushroom,The Coconut Mushroom
+Mother and Son,Marshmallows,Marshmallows and Son
+The Bird of Paradise,Bon Bon,The Bird of Bon Bon
+In a Free State,Black Jacks,In a Black Jacks State
+Wolf Hall,Flying Saucer,Flying Saucer Hall
+The English Patient,Pontefract Cakes,The Pontefract Cakes Patient
+The Sea,Jelly Babies,Jelly Babies Sea
+A House of Children,Flumps,A Flumps of Children
+Heat and Dust,Catherine Wheels,Heat and Catherine Wheels
+The <words> Affair,Torpedo,The Torpedos Affair
+Desirable <words>,Humbug,Desirable Humbugs
+On <words>,Mint Imperials,On Mint Imperials
+What to say about <words>,Polo,What to say about Polos
+Atoms in <words>,Fish & Chips,Atoms in Fish & Chips
+The <word> Inquiry,Dip Dab,The Dip Dab Inquiry
+Life and Death of <word>,Sherbert Fountains,Life and Death of Sherbert Fountains
+Oh the <words>,Bullseyes,Oh the Bullseyes
+Eternal <word>,Chewies,Eternal Chewies
+<word> Galore,Drumstick,Drumstick Galore
+The Luminaries,Sherbert Fountains,The Sherbert Fountains
+Peacemakers - The Paris Peace Conference of 1919 and Its Attempt to End War,Dip Dab,Peacemakers - The Paris Peace Conference of 1919 and Its Dip Dab to End War
+Flying Colours,Wine Gums,Wine Gums Colours
+Tales from Bective Bridge,Mint Imperials,Tales Mint Imperials Bective Bridge
+,Coconut Mushroom,Coconut Mushroom
+Crossing the River,Highland Toffee,Crossing the Highland Toffee
+Lady into Fox,Fruit Salads,Lady Fruit Salads Fox
+The Third Reich - A New History,Lovehearts,The Third Lovehearts - A New History
+We Need to Talk About Kevin,Drumstick,We Need to Talk About Drumstick
+The Bone People,Black Jacks,The Black Jacks People
+What to say about <words>,Bon Bon,What to say about Bon Bons
+On <words>,Fizz Wiz,On Fizz Wizs
+<word> Affray,Gobstopper,Gobstopper Affray
+The <word> Disaster,Pontefract Cakes,The Pontefract Cakes Disaster
+Memories of <word>,Torpedo,Memories of Torpedo
+A Spark of <words>,Flying Saucer,A Spark of Flying Saucers
+' <wordD> ',Flumps,'Flumps'
+The <word> Inquiry,Jelly Babies,The Jelly Babies Inquiry
+<word> to the Rescue,Catherine Wheels,Catherine Wheels to the Rescue
+<wordp> in Grimsby,Bullseyes,Bullseyes in Grimsby
+Monsieur - or, The Prince of Darkness,Flying Saucer,Monsieur - or, The Flying Saucer of Darkness
+Bring Up the Bodies,Humbug,Humbug Up the Bodies
+We Need to Talk About Kevin,Torpedo,We Need to Talk Torpedo Kevin
+Life & Times of Michael K,Chewies,Chewies & Times of Michael K
+Men at Arms,Bon Bon,Men at Bon Bon
+Miss Mole,Liquorice Allsorts,Miss Liquorice Allsorts
+Staying On,Lovehearts,Lovehearts On
+The Bird of Paradise,Polo,The Bird of Polo
+The Far Cry,Dip Dab,Dip Dab Far Cry
+The Heart of the Matter,Wine Gums,The Wine Gums of the Matter
+How to Spot <words>,Fizz Wiz,How to Spot Fizz Wizs
+Oh the <words>,Coconut Mushroom,Oh the Coconut Mushrooms
+The Apotheosis of <words>,Jelly Babies,The Apotheosis of Jelly Babies
+The <words> Affair,Black Jacks,The Black Jacks Affair
+' <wordD> ',Catherine Wheels,'Catherine Wheels'
+Eternal <word>,Fruit Salads,Eternal Fruit Salads
+A Bad <word>,Flumps,A Bad Flumps
+What to say about <words>,Bullseyes,What to say about Bullseyes
+The <word> Assassin,Mint Imperials,The Mint Imperials Assassin
+Memories of <word>,Pontefract Cakes,Memories of Pontefract Cakes
+The White Tiger,Wine Gums,The Wine Gums Tiger
+Edward Heath - A Biography,Pontefract Cakes,Pontefract Cakes Heath - A Biography
+Wolf Hall,Chewies,Wolf Chewies
+Half of a Yellow Sun,Catherine Wheels,Catherine Wheels of a Yellow Sun
+Paddy Clarke Ha Ha Ha,Fruit Salads,Paddy Fruit Salads Ha Ha Ha
+Something to Answer For,Gobstoppers,Gobstoppers to Answer For
+The Sea, the Sea,Fish & Chips,The Fish & Chips the Sea
+Through the Valley,Drumstick,Drumstick the Valley
+Small Island,Black Jacks,Small Black Jacks
+Hotel du Lac,Gobstopper,Gobstopper du Lac
+A Spark of <words>,Marshmallows,A Spark of Marshmallows
+Looking at <words>,Fizz Wiz,Looking at Fizz Wizs
+<word> Galore,Dip Dab,Dip Dab Galore
+The Apotheosis of <words>,Flying Saucer,The Apotheosis of Flying Saucers
+The <word> Disaster,Coconut Mushroom,The Coconut Mushroom Disaster
+In Praise of <words>,Polo,In Praise of Polos
+The Neo- <wordD>,Torpedo,The Neo-Torpedo
+' <wordD> ',Highland Toffee,'Highland Toffee'
+<word> to the Rescue,Flumps,Flumps to the Rescue
+The <word> Incident,Hobnobs,The Hobnobs Incident
+Lady into Fox,Jelly Babies,Jelly Babies into Fox
+Fugitive Pieces,Humbug,Humbug Pieces
+The Sea, the Sea,Sherbert Fountains,The Sherbert Fountains the Sea
+A People's Tragedy,Gobstopper,A People's Gobstopper
+The Devil's Advocate,Fizz Wiz,The Fizz Wiz Advocate
+Eustace and Hilda,Chewies,Eustace and Chewies
+The God of Small Things,Wine Gums,The God of Small Wine Gums
+The White Tiger,Lovehearts,The White Lovehearts
+In a Free State,Fruit Salads,In a Fruit Salads State
+After Many a Summer Dies the Swan,Torpedo,After Many a Summer Dies the Torpedo
+Looking at <words>,Hobnobs,Looking at Hobnobs
+The Neo- <wordD>,Marshmallows,The Neo-Marshmallows
+The <word> Disaster,Polo,The Polo Disaster
+A Good <word>,Flumps,A Good Flumps
+Eternal <word>,Liquorice Allsorts,Eternal Liquorice Allsorts
+How to Spot <words>,Bon Bon,How to Spot Bon Bons
+<word> to the Rescue,Pontefract Cakes,Pontefract Cakes to the Rescue
+Atoms in <words>,Catherine Wheels,Atoms in Catherine Wheels
+What to say about <words>,Highland Toffee,What to say about Highland Toffees
+<words> at Home,Fish & Chips,Fish & Chips at Home
+The English Patient,Gobstoppers,The Gobstoppers Patient
+Oscar and Lucinda,Jelly Babies,Jelly Babies and Lucinda
+Mao's Great Famine ,Wine Gums,Mao's Wine Gums Famine
+The Siege of Krishnapur,Bon Bon,The Siege of Bon Bon
+Troy Chimneys,Polo,Troy Polo
+A Ship of the Line,Chewies,A Ship of the Chewies
+May We Be Forgiven,Fruit Salads,May We Be Fruit Salads
+The Railway Man,Mint Imperials,The Mint Imperials Man
+The Devil's Advocate,Sherbert Fountains,The Sherbert Fountains Advocate
+Fugitive Pieces,Lovehearts,Fugitive Lovehearts
+The <word> Incident,Coconut Mushroom,The Coconut Mushroom Incident
+Life and Death of <word>,Hobnobs,Life and Death of Hobnobs
+<word> Affray,Liquorice Allsorts,Liquorice Allsorts Affray
+<word> to the Rescue,Black Jacks,Black Jacks to the Rescue
+<word> Galore,Humbug,Humbug Galore
+How to Spot <words>,Bullseyes,How to Spot Bullseyes
+Oh the <words>,Highland Toffee,Oh the Highland Toffees
+The <word> Disaster,Drumstick,The Drumstick Disaster
+A Spark of <words>,Flumps,A Spark of Flumps
+The <words> Affair,Gobstopper,The Gobstoppers Affair
+The Secret City,Mint Imperials,The Mint Imperials City
+At Lady Molly's,Fish & Chips,At Fish & Chips Molly's
+After Many a Summer Dies the Swan,Sherbert Fountains,After Many a Summer Dies the Sherbert Fountains
+Mother and Son,Flumps,Flumps and Son
+Winter Garden,Gobstopper,Gobstopper Garden
+The Tiger's Wife,Marshmallows,The Tiger's Marshmallows
+The Folding Star,Bon Bon,The Bon Bon Star
+Highland River,Hobnobs,Highland Hobnobs
+Last Orders,Lovehearts,Lovehearts Orders
+Edward Heath - A Biography,Humbug,Edward Heath - A Humbug
+Desirable <words>,Black Jacks,Desirable Black Jacks
+The <word> Assassin,Drumstick,The Drumstick Assassin
+Memories of <word>,Bullseyes,Memories of Bullseyes
+<word> Galore,Liquorice Allsorts,Liquorice Allsorts Galore
+<word> to the Rescue,Polo,Polo to the Rescue
+Looking at <words>,Jelly Babies,Looking at Jelly Babies
+The <word> Disaster,Chewies,The Chewies Disaster
+' <wordD> ',Highland Toffee,'Highland Toffee'
+The <word> Incident,Coconut Mushroom,The Coconut Mushroom Incident
+The <word> Inquiry,Wine Gums,The Wine Gums Inquiry
+The Sense of an Ending,Hobnobs,The Sense of an Hobnobs
+A Girl Is a Half-formed Thing,Marshmallows,A Girl Is a Half-formed Marshmallows
+A Passage to India,Mint Imperials,A Mint Imperials to India
+Heat and Dust,Coconut Mushroom,Coconut Mushroom and Dust
+FatherGoose,Flying Saucer,Flying Saucer
+Our Horses in Egypt,Highland Toffee,Our Horses in Highland Toffee
+The Idea of Perfection,Humbug,The Idea of Humbug
+Touching the Void,Liquorice Allsorts,Liquorice Allsorts the Void
+The Gathering,Gobstopper,The Gobstopper
+Paddy Clarke Ha Ha Ha,Torpedo,Torpedo Clarke Ha Ha Ha
+The <word> Disaster,Bullseyes,The Bullseyes Disaster
+<wordp> in Grimsby,Black Jacks,Black Jacks in Grimsby
+Atoms in <words>,Catherine Wheels,Atoms in Catherine Wheels
+The <word> Incident,Jelly Babies,The Jelly Babies Incident
+A Good <word>,Drumstick,A Good Drumstick
+The <word> Inquiry,Flumps,The Flumps Inquiry
+Oh the <words>,Gobstoppers,Oh the Gobstoppers
+<word> Affray,Chewies,Chewies Affray
+<words> at <number>,Fruit Salads,Fruit Salads at 48
+A Bad <word>,Wine Gums,A Bad Wine Gums
+The Great Victorian Collection,Fish & Chips,The Fish & Chips Victorian Collection
+The Narrow Road to the Deep North,Fizz Wiz,The Narrow Road to the Fizz Wiz North
+A House of Children,Bullseyes,A Bullseyes of Children
+The Luminaries,Gobstopper,The Gobstopper
+The Song of Achilles,Sherbert Fountains,The Sherbert Fountains of Achilles
+In a Free State,Lovehearts,In a Lovehearts State
+Act of Destruction,Wine Gums,Act of Wine Gums
+A Crime in the Neighborhood,Polo,A Polo in the Neighborhood
+Small Island,Liquorice Allsorts,Small Liquorice Allsorts
+The Devil's Advocate,Pontefract Cakes,The Devil's Pontefract Cakes
+The <word> Assassin,Gobstoppers,The Gobstoppers Assassin
+<word> to the Rescue,Chewies,Chewies to the Rescue
+On <words>,Hobnobs,On Hobnobs
+Desirable <words>,Drumstick,Desirable Drumsticks
+How to Spot <words>,Catherine Wheels,How to Spot Catherine Wheels
+The <words> Affair,Flying Saucer,The Flying Saucers Affair
+The <word> Incident,Torpedo,The Torpedo Incident
+The <word> Disaster,Black Jacks,The Black Jacks Disaster
+A Bad <word>,Jelly Babies,A Bad Jelly Babies
+The Apotheosis of <words>,Mint Imperials,The Apotheosis of Mint Imperials
+Ticeyman Steps,Pontefract Cakes,Pontefract Cakes Steps
+Empire of the Sun,Flying Saucer,Flying Saucer of the Sun
+Act of Destruction,Catherine Wheels,Act of Catherine Wheels
+Eustace and Hilda,Polo,Eustace and Polo
+Staying On,Fish & Chips,Fish & Chips On
+Possession : A Romance,Mint Imperials,Mint Imperials : A Romance
+A People's Tragedy,Bullseyes,A People's Bullseyes
+In a Free State,Highland Toffee,In a Free Highland Toffee
+Bring Up the Bodies,Fruit Salads,Fruit Salads Up the Bodies
+Nothing to Envy - Ordinary Lives in North Korea,Torpedo,Nothing to Torpedo - Ordinary Lives in North Korea
+<words> at <number>,Chewies,Chewies at 2
+The <word> Incident,Jelly Babies,The Jelly Babies Incident
+The <word> Disaster,Coconut Mushroom,The Coconut Mushroom Disaster
+<words> at Home,Gobstopper,Gobstoppers at Home
+' <wordD> ',Lovehearts,'Lovehearts'
+On <words>,Bon Bon,On Bon Bons
+A Spark of <words>,Marshmallows,A Spark of Marshmallows
+<word> to the Rescue,Black Jacks,Black Jacks to the Rescue
+A Bad <word>,Sherbert Fountains,A Bad Sherbert Fountains
+<word> Affray,Humbug,Humbug Affray
+A Guest of Honour,Wine Gums,A Guest of Wine Gums
+Empire of the Sun,Liquorice Allsorts,Liquorice Allsorts of the Sun
+The Ghost Road,Lovehearts,The Ghost Lovehearts
+A Slanting Light,Dip Dab,A Dip Dab Light
+The Siege of Krishnapur,Coconut Mushroom,The Coconut Mushroom of Krishnapur
+Heat and Dust,Highland Toffee,Highland Toffee and Dust
+The Sense of an Ending,Pontefract Cakes,The Sense of an Pontefract Cakes
+Last Orders,Drumstick,Drumstick Orders
+The Mandelbaum Gate,Fruit Salads,The Fruit Salads Gate
+The Golden Bird - Two Orkney Stories,Gobstopper,The Golden Bird - Two Gobstopper Stories
+Life and Death of <word>,Fizz Wiz,Life and Death of Fizz Wiz
+Desirable <words>,Bullseyes,Desirable Bullseyes
+The Neo- <wordD>,Catherine Wheels,The Neo-Catherine Wheels
+The Apotheosis of <words>,Hobnobs,The Apotheosis of Hobnobs
+The <words> Affair,Flumps,The Flumps Affair
+The <word> Incident,Torpedo,The Torpedo Incident
+On <words>,Polo,On Polos
+The <word> Disaster,Black Jacks,The Black Jacks Disaster
+Eternal <word>,Chewies,Eternal Chewies
+<word> Galore,Gobstoppers,Gobstoppers Galore
+At Lady Molly's,Fruit Salads,At Fruit Salads Molly's
+Waiting for the Barbarians,Hobnobs,Waiting for the Hobnobs
+A Season in the West,Catherine Wheels,A Season in the Catherine Wheels
+Like A Fiery Elephant - The Story of B. S. Johnson,Jelly Babies,Like A Fiery Elephant - The Jelly Babies of B. S. Johnson
+The Folding Star,Wine Gums,The Folding Wine Gums
+The Third Reich - A New History,Mint Imperials,The Third Reich - A New Mint Imperials
+Sacred Hunger,Drumstick,Drumstick Hunger
+The Golden Bird - Two Orkney Stories,Flumps,The Flumps Bird - Two Orkney Stories
+Coming Back Brockens,Gobstopper,Coming Gobstopper Brockens
+The Pike,Liquorice Allsorts,The Liquorice Allsorts
+The <word> Assassin,Gobstoppers,The Gobstoppers Assassin
+' <wordD> ',Fizz Wiz,'Fizz Wiz'
+<words> at <number>,Sherbert Fountains,Sherbert Fountains at 46
+How to Spot <words>,Bullseyes,How to Spot Bullseyes
+<word> Affray,Flying Saucer,Flying Saucer Affray
+Eternal <word>,Black Jacks,Eternal Black Jacks
+The <word> Incident,Pontefract Cakes,The Pontefract Cakes Incident
+<wordp> in Grimsby,Dip Dab,Dip Dab's in Grimsby
+<word> Galore,Coconut Mushroom,Coconut Mushroom Galore
+A Spark of <words>,Polo,A Spark of Polos
+1599 - A Year in the Life of William Shakespeare,Black Jacks,1599 - A Year in the Life of William Black Jacks
+A Girl Is a Half-formed Thing,Humbug,A Humbug Is a Half-formed Thing
+The Road Home,Wine Gums,The Wine Gums Home
+Fugitive Pieces,Mint Imperials,Mint Imperials Pieces
+The Deadman's Pedal,Polo,The Deadman's Polo
+When I Lived in Modern Times,Bullseyes,When I Lived in Bullseyes Times
+Young Tom,Flumps,Flumps Tom
+Mother and Son,Flying Saucer,Flying Saucer and Son
+After Many a Summer Dies the Swan,Bon Bon,After Bon Bon a Summer Dies the Swan
+The Lost Girl,Gobstopper,The Lost Gobstopper
+<words> at Home,Hobnobs,Hobnobs at Home
+Eternal <word>,Fruit Salads,Eternal Fruit Salads
+The <word> Incident,Torpedo,The Torpedo Incident
+Life and Death of <word>,Coconut Mushroom,Life and Death of Coconut Mushroom
+In Praise of <words>,Chewies,In Praise of Chewies
+<word> Galore,Marshmallows,Marshmallows Galore
+<word> Affray,Liquorice Allsorts,Liquorice Allsorts Affray
+<words> at <number>,Lovehearts,Lovehearts at 23
+The Neo- <wordD>,Jelly Babies,The Neo-Jelly Babies
+Oh the <words>,Pontefract Cakes,Oh the Pontefract Cakes

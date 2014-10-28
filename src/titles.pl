@@ -68,10 +68,10 @@ foreach my $i (1..10) {
                 $i++;
         }
 
-        $title_words[$valid_words[rand @valid_words]] = splice(@data, rand @data, 1);
-#        splice(@data,
+        my $new_word = splice(@data, rand @data, 1);
+        $title_words[$valid_words[rand @valid_words]] = $new_word;
 
-        print join(' ', @title_words), "\n";
+        print "$title,$new_word,\"", join(' ', @title_words), "\"\n";
 }
 
 foreach my $i (1..10) {
@@ -79,37 +79,42 @@ foreach my $i (1..10) {
         my @sent_words = split(/\s/, $sentence);
         my $mod = 1;
         my $new_sentence;
+        my $new_word;
 
         foreach my $word (@sent_words) {
                if($word eq "<word>") {
-                    $new_sentence .= splice(@data, rand @data, 1) . " ";
+                    $new_word = splice(@data, rand @data, 1);
+                    $new_sentence .= $new_word . " ";
                } elsif ($word eq "<words>") {
-                    my $new_word = splice(@data, rand @data, 1);
+                    $new_word = splice(@data, rand @data, 1);
                     if($new_word =~ /s$/) {
                         $new_sentence .= $new_word . " ";
                     } else {
                         $new_sentence .= $new_word . "s ";
                     }
                } elsif ($word eq "<wordp>") {
-                    my $new_word = splice(@data, rand @data, 1);
+                    $new_word = splice(@data, rand @data, 1);
                     if($new_word =~ /s$/) {
                         $new_sentence .= $new_word . " ";
                     } else {
                         $new_sentence .= $new_word . "'s ";
                     }
                } elsif ($word eq "<wordd>") {
-                    $new_sentence .= splice(@data, rand @data, 1);
+                    $new_word = splice(@data, rand @data, 1);
+                    $new_sentence .= $new_word;
                } elsif ($word eq "<wordD>") {
                     chop $new_sentence;
-                    $new_sentence .= splice(@data, rand @data, 1);
+                    $new_word = splice(@data, rand @data, 1);
+                    $new_sentence .= $new_word;
                } elsif ($word eq "<number>") {
                     $new_sentence .= int(rand(100)) . " ";
                } else {
                     $new_sentence .= $word . " ";
                }
         }
+        $new_sentence =~ s/\s+$//;
 
-        print $new_sentence, "\n";
+        print "$sentence,$new_word,\"$new_sentence\"\n";
 }
 
                         
